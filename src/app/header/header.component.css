@@ -1,0 +1,14 @@
+
+.navbar-brand>img {
+    float: left;
+    width: 106px;
+}
+
+.lang.dropdown a {
+    color: #333;
+    padding: 6px;
+    font-size: .875rem;
+}
+.icon-arrow_lang:before {
+    content: "\e91e";
+}

@@ -1,0 +1,16 @@
+<div class="top_news wbx no_brdr_b bar_teal" style="margin-top:0px">
+	<div class="con trackclicksection" data-trackclick="#page# >> Rotator" >
+<div *ngIf = "rotatorData">
+    <div *ngFor= "let rotator of rotatorData">
+
+<div id="top_headlines1" class="t_news top-n-block trackclick" style="" onclick="">
+    <div class="t_n_thumb_rotator"  onclick="">
+        <img [src]= "rotator.Image" class="lazy"/>
+    </div>
+    <div class="t_n_txt">
+        <h2><a class="trackclick" data-trackclick="#text#::1" href="/">{{  rotator.Title }}</a></h2>
+    </div>
+</div>  
+</div>
+</div>
+</div></div>

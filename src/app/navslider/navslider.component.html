@@ -1,0 +1,9 @@
+<div *ngIf = "NavmenuData">
+<div id="navigation" class="for_UCB">
+    <ul> 
+        <div *ngFor= "let navmenu of NavmenuData">
+            <li><a class="trackclick " data-trackclick="#text#::0" href="/article{{ navmenu.DefaultUrl }}">{{  navmenu.Text }}</a></li>
+        </div> 
+    </ul>
+</div>
+</div>
